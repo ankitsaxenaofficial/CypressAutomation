@@ -1,0 +1,16 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "CypressFramework",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run"
+  },
+  "author": "Ankit Saxena",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.4.0",
+    "cypress-mochawesome-reporter": "^3.6.1",
+    "mochawesome": "^7.1.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ankit",
+  "email": "almnac@gmail.com",
+  "password": "Testcypress123",
+  "dob": "04101986",
+  "appURL": "https://rahulshettyacademy.com/angularpractice/",
+  "productname": ["Samsung Note 8","Blackberry"],
+  "totalPrice": 135000,
+  "country": "Ind",
+  "countryValue": "India",
+  "successMsg": "Success",
+  "course": "TestNG"
+}
