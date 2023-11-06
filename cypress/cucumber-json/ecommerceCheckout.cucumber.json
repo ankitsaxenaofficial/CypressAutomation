@@ -23,7 +23,7 @@
             "name": "I open the Application",
             "result": {
               "status": "passed",
-              "duration": 1591000000
+              "duration": 1622000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I add phones in the cart",
             "result": {
               "status": "passed",
-              "duration": 1432000000
+              "duration": 1448000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I Checkout the page",
             "result": {
               "status": "passed",
-              "duration": 5597000000
+              "duration": 5633000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Phones should be successfully added",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 18000000
             }
           }
         ]
