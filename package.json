@@ -4,13 +4,30 @@
   "description": "CypressFramework",
   "main": "index.js",
   "scripts": {
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "generate-report": "npm run cy:run && node reporter.js"
   },
   "author": "Ankit Saxena",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.4.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-mochawesome-reporter": "^3.6.1",
-    "mochawesome": "^7.1.3"
+    "mochawesome": "^7.1.3",
+    "multiple-cucumber-html-reporter": "^3.5.0"
+  },
+  "nonGlobalStepDefinitions": true,
+  "cypress-cucumber-preprocessor": {
+    "commonPath": "cypress/e2e/CucumberBDD/",
+    "stepDefinitions": "cypress/e2e/CucumberBDD/ecommerceApp",
+    "html": {
+      "enabled": true
+    },
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+     }
   }
 }

@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    User Registration\n    Shop Phones",
+    "keyword": "Feature",
+    "name": "Ecommerce Application User Registration",
+    "line": 1,
+    "id": "ecommerce-application-user-registration",
+    "tags": [],
+    "uri": "ecommerceUserRegisration.feature",
+    "elements": [
+      {
+        "id": "ecommerce-application-user-registration;user-registration",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User Registration",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the Application",
+            "result": {
+              "status": "passed",
+              "duration": 1614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I fill the User Form",
+            "result": {
+              "status": "passed",
+              "duration": 1164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I Verify the Success Message",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

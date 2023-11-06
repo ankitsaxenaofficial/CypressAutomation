@@ -1,5 +1,5 @@
 const { defineConfig } = require("cypress");
-
+const cucumber  = require('cypress-cucumber-preprocessor').default
 
 
 module.exports = defineConfig({
@@ -13,8 +13,10 @@ module.exports = defineConfig({
     saveAllAttempts: false,
   },
   e2e: {
+    specPattern: "**/*.feature",
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
+      on('file:preprocessor', cucumber())
     },
   },
 });

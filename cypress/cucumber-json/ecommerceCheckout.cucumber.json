@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Shop Phones",
+    "keyword": "Feature",
+    "name": "Ecommerce Application Checkout Feature",
+    "line": 1,
+    "id": "ecommerce-application-checkout-feature",
+    "tags": [],
+    "uri": "ecommerceCheckout.feature",
+    "elements": [
+      {
+        "id": "ecommerce-application-checkout-feature;purchase-phones",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Purchase Phones",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the Application",
+            "result": {
+              "status": "passed",
+              "duration": 1591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I add phones in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 1432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I Checkout the page",
+            "result": {
+              "status": "passed",
+              "duration": 5597000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Phones should be successfully added",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
